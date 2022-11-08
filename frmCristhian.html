@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cristhian Valdivia</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="stylefrm.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+    </style>
+    <link
+      rel="shortcut icon"
+      href="https://w7.pngwing.com/pngs/371/386/png-transparent-white-and-blue-passenger-plane-airplane-flight-aircraft-helicopter-icon-a5-plane-mode-of-transport-desktop-wallpaper-transport-thumbnail.png"
+    />
+  </head>
+  <body>
+    <header id="main-header">
+      <a id="logo-header" href="#">
+        <span class="site-name">Experiencias</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="main-content">
+      <article>
+        <header>
+          <h1>Cristhian Johan Valdivia Salas</h1>
+          <h2 style="text-align: center">Experiencias</h2>
+        </header>
+        <div class="content">
+          <p>
+            <strong>
+              Hola! Bienvenido a este blog donde te comentaré sobre las
+              experiencias viajeras que tuve recientemente
+            </strong>
+          </p>
+          <p style="text-align: justify">
+            Aquí podras encontrar mis ultimas experiencias viajeras, quisiera
+            que en la caja de comentarios me des algunos lugar para visitar
+          </p>
+        </div>
+      </article>
+      <div class="botones">
+        <form action="index.html" method="post">
+          <button class="btn1" type="submit">INICIO</button>
+        </form>
+
+        <button class="btn2" type="button" onclick="datos()">
+          INGRESAR DATOS
+        </button>
+        <form action="viajes.html" method="post">
+          <button class="btn3" type="submit">VIAJES</button>
+        </form>
+        <form action="comidas.html" method="post">
+          <button class="btn4" type="submit">COMIDAS</button>
+        </form>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <td colspan="2">
+              <h4>Datos Personales</h4>
+            </td>
+          </tr>
+        </thead>
+        <tr>
+          <td>Nombres:</td>
+          <td>
+            <textarea id="nombre" readonly cols="30" rows="1"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Apellidos:</td>
+          <td>
+            <textarea id="apellidos" readonly cols="30" rows="1"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Celular:</td>
+          <td>
+            <textarea id="celular" readonly cols="30" rows="1"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Correo:</td>
+          <td>
+            <textarea id="email" readonly cols="30" rows="1"></textarea>
+          </td>
+        </tr>
+      </table>
+
+      <div class="historia">
+        <h3>Sugiere un lugar para viajar</h3>
+        <textarea
+          id="historia"
+          cols="50"
+          rows="5"
+          style="background-color: #ffda9e"
+        ></textarea>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <p>
+        &copy; 2022 <a href="http:www.instagram.com/johanartts">JohanArtts</a>
+      </p>
+    </footer>
+  </body>
+</html>
